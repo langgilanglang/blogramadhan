@@ -1,8 +1,14 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* Gradasi Hijau Mewah khas Ramadhan */
-    background: linear-gradient(135deg, #0d3b11 0%, #1b5e20 50%, #2e7d32 100%);
-    background-attachment: fixed;
+    /* PANGGIL GAMBAR DI SINI */
+    background-image: url('public/background.avif'); 
+    
+    /* PENGATURAN AGAR GAMBAR BAGUS */
+    background-size: cover;      /* Gambar menutupi seluruh layar */
+    background-position: center; /* Gambar selalu di tengah */
+    background-attachment: fixed;/* Gambar diam saat di-scroll */
+    background-repeat: no-repeat;
+    
     margin: 0;
     padding: 20px;
     display: flex;
@@ -11,11 +17,13 @@ body {
     min-height: 100vh;
 }
 
+/* TAMBAHKAN INI AGAR TEKS JUDUL TETAP TERBACA JELAS */
 h1 {
-    color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    margin-bottom: 30px;
-    text-align: center;
+    color: white;
+    background-color: rgba(27, 94, 32, 0.7); /* Box hijau transparan */
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .product {
