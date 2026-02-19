@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* PANGGIL GAMBAR DI SINI */
-    background-image: url('public/background.avif'); 
+    background-image: url('public/1.jpg'); 
     
     /* PENGATURAN AGAR GAMBAR BAGUS */
     background-size: cover;      /* Gambar menutupi seluruh layar */
